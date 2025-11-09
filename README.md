@@ -34,3 +34,13 @@ Run the following commands step by step:
 ```bash
 python manage.py makemigrations
 python manage.py migrate
+
+### 👑 Create a Superuser (Admin Panel Access)
+
+To access the Django **Admin Dashboard**, you need to create a superuser account.  
+This user will have full permissions to manage products, categories, and users.
+
+Run the following command in your project directory (where `manage.py` is located):
+
+```bash
+python manage.py createsuperuser
