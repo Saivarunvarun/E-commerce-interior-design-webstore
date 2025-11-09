@@ -14,3 +14,11 @@ python -m venv venv
 venv\Scripts\activate    # On Windows
 # OR
 source venv/bin/activate # On Mac/Linux
+
+## ⚙️ Installation Steps
+
+### 🧩 Install Dependencies
+Make sure you have a virtual environment activated before installing the project dependencies.
+
+```bash
+pip install -r requirements.txt
