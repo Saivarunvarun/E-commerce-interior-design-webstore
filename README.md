@@ -44,3 +44,10 @@ Run the following command in your project directory (where `manage.py` is locate
 
 ```bash
 python manage.py createsuperuser
+
+## 🚀 Run the Development Server
+
+Once all dependencies and migrations are set up, start your Django development server with:
+
+```bash
+python manage.py runserver
