@@ -22,3 +22,15 @@ Make sure you have a virtual environment activated before installing the project
 
 ```bash
 pip install -r requirements.txt
+
+## 🗃️ Apply Database Migrations
+
+Once your virtual environment is activated and dependencies are installed, you need to create and apply database migrations.
+
+Migrations are Django’s way of applying changes you make to your models (like creating or updating tables) into your database.
+
+Run the following commands step by step:
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
