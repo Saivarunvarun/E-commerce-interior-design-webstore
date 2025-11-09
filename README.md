@@ -244,3 +244,27 @@ This project can be further expanded with the following advanced features and im
 
 🚀 *These improvements will help transform this e-commerce website into a fully featured, secure, and scalable online shopping platform.*
 
+
+## 👨‍💻 Developer
+
+### 👤 **Sai Varun**
+**Full Stack Python Developer**
+
+💡 Passionate about building dynamic, user-friendly, and scalable web applications using **Django**, **Python**, and **modern front-end technologies**.
+
+📍 Skilled in:
+- Django | Python | HTML | CSS | JavaScript | Bootstrap  
+- SQL | SQLite | REST APIs | Git & GitHub  
+- Full Stack Web Development | Responsive UI Design
+
+📫 **Contact Information:**
+- 📧 Email: [saivarunvarun@gmail.com](mailto:saivarunvarun@gmail.com)
+- 🌐 GitHub: [github.com/Saivarunvarun](https://github.com/Saivarunvarun)
+- 💼 LinkedIn: *(Add your LinkedIn link here if you have one)*
+
+🧠 **About Me:**
+> I enjoy designing and developing web solutions that solve real-world problems.  
+> My focus is on writing clean, maintainable code and delivering visually appealing and efficient applications.
+
+⭐ *If you like this project, please star it on GitHub — your support means a lot!*
+
