@@ -61,3 +61,23 @@ Django version 4.x, using settings 'ecommerce.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 
+## 📁 Folder Structure
+
+The project is organized as follows:
+
+
+---
+
+### 🧠 Notes:
+- `ecommerceapp/` contains core e-commerce logic like displaying products and categories.  
+- `accounts/` manages user authentication (signup, login, logout).  
+- `cart/` keeps track of items users add to their cart.  
+- `searchapp/` adds dynamic search capability to find products easily.  
+- `static/` holds all static frontend files like CSS, JS, and images.  
+- `templates/` defines reusable UI components shared across the app.  
+- `media/` stores uploaded product images dynamically through the admin panel.
+
+---
+
+Would you like me to include **a “Tech Stack Used” section** (e.g., Django, Bootstrap, SQLite, etc.) next to this — so your README looks more detailed and professional on GitHub?
+
