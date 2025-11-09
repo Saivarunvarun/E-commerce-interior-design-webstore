@@ -136,3 +136,61 @@ E-commerce-interior-design-webstore/
 
 Would you like me to include **a “Tech Stack Used” section** (e.g., Django, Bootstrap, SQLite, etc.) next to this — so your README looks more detailed and professional on GitHub?
 
+
+## 🔒 Authentication Flow
+
+The **E-commerce Interior Design Webstore** includes a secure and user-friendly authentication system built with Django’s authentication framework.
+
+### 👤 User Actions
+
+1. **Signup / Registration**
+   - New users can create an account through the **Signup Page**.
+   - The registration form collects essential details such as username, email, and password.
+   - Once registered successfully, the user is automatically redirected to the **Login Page**.
+
+2. **Login**
+   - Registered users can log in using their credentials.
+   - Upon successful login, users are redirected to the **Home Page**, where they can browse products, add them to the cart, and proceed to checkout.
+
+3. **Logout**
+   - A **Logout** button appears on the **top-right corner of the header** once the user is logged in.
+   - Clicking on it securely logs out the user and redirects them to the **Login Page**.
+
+4. **Access Control**
+   - Certain pages like the **Cart** and **Checkout** are only accessible to authenticated users.
+   - If a non-logged-in user tries to access these pages, they are automatically redirected to the **Login Page**.
+
+---
+
+### 🧑‍💼 Admin Authentication
+
+- Admin users can log in through the **Django Admin Panel** at:
+  👉 [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)
+- Admins can:
+  - Manage users
+  - Add/edit/delete products
+  - Manage categories
+  - Monitor customer orders
+
+---
+
+### ⚙️ Security Highlights
+
+- Passwords are stored in a **hashed format** (never in plain text).
+- Built-in Django authentication ensures CSRF protection, session handling, and secure login.
+- Logout endpoints automatically clear user sessions to prevent unauthorized access.
+
+---
+
+### 🔁 User Flow Summary
+
+| Step | Action | Redirect |
+|------|---------|-----------|
+| 📝 Signup | User registers a new account | Redirects to Login Page |
+| 🔐 Login | User enters credentials | Redirects to Home Page |
+| 🛍️ Authenticated Access | User can browse, add to cart, and checkout | Stay on Home/Cart |
+| 🚪 Logout | User clicks logout | Redirects to Login Page |
+
+---
+
+✨ This ensures a smooth, secure, and intuitive authentication experience for all users — keeping the app both functional and safe.
