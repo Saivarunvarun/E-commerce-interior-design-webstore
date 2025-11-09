@@ -65,6 +65,61 @@ Quit the server with CTRL-BREAK.
 
 The project is organized as follows:
 
+E-commerce-interior-design-webstore/
+│
+├── ecommerce/ # Main project configuration (settings, URLs, WSGI, ASGI)
+│ ├── init.py
+│ ├── asgi.py
+│ ├── settings.py
+│ ├── urls.py
+│ └── wsgi.py
+│
+├── ecommerceapp/ # Core app for product and category management
+│ ├── models.py
+│ ├── views.py
+│ ├── urls.py
+│ ├── admin.py
+│ ├── forms.py
+│ └── templates/ecommerceapp/
+│
+├── accounts/ # Handles user registration, login, and logout
+│ ├── views.py
+│ ├── urls.py
+│ ├── forms.py
+│ └── templates/accounts/
+│
+├── cart/ # Shopping cart logic
+│ ├── cart.py
+│ ├── context_processors.py
+│ ├── models.py
+│ ├── views.py
+│ └── templates/cart/
+│
+├── searchapp/ # Handles search functionality for products
+│ ├── views.py
+│ ├── urls.py
+│ └── templates/searchapp/
+│
+├── static/ # CSS, JS, and image assets
+│ ├── css/
+│ ├── js/
+│ └── img/
+│
+├── templates/ # Shared HTML templates
+│ ├── base.html
+│ ├── header.html
+│ ├── nav.html
+│ ├── footer.html
+│ ├── category.html
+│ ├── product.html
+│ └── registration/
+│
+├── media/ # Uploaded media files (product images, etc.)
+│
+├── db.sqlite3 # SQLite database (development)
+├── manage.py # Django project management script
+└── requirements.txt # Python dependencies list
+
 
 ---
 
