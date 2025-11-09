@@ -51,3 +51,13 @@ Once all dependencies and migrations are set up, start your Django development s
 
 ```bash
 python manage.py runserver
+
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 09, 2025 - 18:42:32
+Django version 4.x, using settings 'ecommerce.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
