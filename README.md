@@ -120,6 +120,30 @@ E-commerce-interior-design-webstore/
 ├── manage.py # Django project management script
 └── requirements.txt # Python dependencies list
 
+## 🖼️ Project Screenshots
+
+Below are the key pages of the **E-commerce Interior Design Webstore** project.
+
+---
+
+### 🔐 Login Page
+Here’s how the login page looks — clean, simple, and user-friendly.
+
+![Login Page](C:\Users\user\OneDrive\Pictures\login.png)
+
+---
+
+### 📊 Dashboard Page
+After logging in, users/admins are directed to the dashboard where they can manage and view details.
+
+![Dashboard](C:\Users\user\OneDrive\Pictures\dashboard.png)
+
+---
+
+## 📁 Folder Structure
+
+
+
 
 ---
 
